@@ -1,0 +1,18 @@
+using System;
+using System.Linq;
+
+class Program
+{
+    static void Main()
+    {
+        // Инициализируем число K и последовательность строк
+        int K = 5;
+        string[] sequence = { "Hello", "World", "CSharp", "PCS", "!", "12345" };
+
+        // Извлекаем из A те строки, которые имеют нечетную длину и начинаются с заглавной латинской буквы, предшествующих элементу с порядковым номером K
+        var extractedStrings = sequence.Take(K).Where(s => s.Length % 2 != 0 && char.IsUpper(s[0])).Reverse();
+
+        // Выводим результат
+        Console.WriteLine("Извлеченные строки: " + string.Join(", ", extractedStrings));
+    }
+}
