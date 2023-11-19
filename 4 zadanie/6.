@@ -1,0 +1,28 @@
+using System;
+using System.Linq;
+
+class Program
+{
+    static void Main()
+    {
+        // Инициализируем числа D, K и последовательность чисел
+        int D = 5;
+        int K = 3;
+        int[] sequence = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+        // Находим первый фрагмент последовательности
+        var firstFragment = sequence.TakeWhile(n => n <= D);
+
+        // Находим второй фрагмент последовательности
+        var secondFragment = sequence.Skip(K - 1);
+
+        // Объединяем фрагменты и удаляем дубликаты
+        var union = firstFragment.Concat(secondFragment).Distinct();
+
+        // Сортируем последовательность по убыванию
+        var sortedUnion = union.OrderByDescending(n => n);
+
+        // Выводим результат
+        Console.WriteLine("Отсортированная последовательность: " + string.Join(", ", sortedUnion));
+    }
+}
