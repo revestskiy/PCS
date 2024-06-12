@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Добро пожаловать!</h1>
+    <p>Выберите одно из следующих действий:</p>
+    <a class="btn btn-primary" href="@Url.Action("Register", "Account")">Регистрация</a>
+    <a class="btn btn-secondary" href="@Url.Action("Login", "Account")">Вход</a>
+</div>

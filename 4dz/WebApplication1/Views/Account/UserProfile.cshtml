@@ -1,0 +1,138 @@
+﻿@model WebApplication1.Models.User
+
+@{
+    ViewData["Title"] = "Профиль пользователя";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <h3>@Model.FullName</h3>
+    <p>Логин: @Model.Login</p>
+</div>
+
+<!-- Кнопка для открытия формы отправки сообщения -->
+<a href="@Url.Action("SendMessage", "Account")" class="btn btn-primary">Написать сообщение</a>
+
+<form id="filterForm" method="get">
+    <div class="form-row">
+        <div class="col">
+            <input type="text" class="form-control" name="senderLogin" placeholder="Логин отправителя">
+        </div>
+        <div class="col">
+            <input type="date" class="form-control" name="dateFrom" placeholder="Дата от">
+        </div>
+        <div class="col">
+            <input type="date" class="form-control" name="dateTo" placeholder="Дата до">
+        </div>
+        <div class="col">
+            <select class="form-control" name="status">
+                <option value="">Все статусы</option>
+                <option value="Новое">новое</option>
+                <option value="прочитанное">прочитанное</option>
+            </select>
+        </div>
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Фильтровать</button>
+        </div>
+    </div>
+</form>
+
+
+
+<!-- Дополнение к предыдущему коду -->
+<div id="messagesContainer">
+    <h4>Сообщения</h4>
+    @if (ViewBag.Messages != null && ((List<WebApplication1.Models.Message>)ViewBag.Messages).Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Тема</th>
+                    <th>Дата отправки</th>
+                    <th>Отправитель</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var message in ViewBag.Messages)
+                {
+                    <tr id="message-row-@message.Id" class="@((message.Status == "Новое") ? "new-message" : "read-message")">
+                        <td>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#messageModal" onclick="showMessage('@message.Text', @message.Id)">@message.Title</a>
+                        </td>
+                        <td>@message.SendDate.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>@message.FromUser.Login (@message.FromUser.Id)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Нет сообщений.</p>
+    }
+</div>
+
+<style>
+    .new-message {
+        background-color: lightyellow;
+    }
+
+    .read-message {
+        background-color: #fff; /* или другой цвет, указывающий на прочтение */
+    }
+</style>
+
+
+
+<!-- Модальное окно Bootstrap для текста сообщения -->
+<div class="modal fade" id="messageModal" tabindex="-1" aria-labelledby="messageModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="messageModalLabel">Текст сообщения</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Сюда будет загружен текст сообщения -->
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Функция для показа сообщения и обновления статуса
+        function showMessage(messageText, messageId) {
+            document.querySelector('#messageModal .modal-body').textContent = messageText;
+
+            $.post('@Url.Action("MarkMessageAsRead", "Account")', { messageId: messageId })
+                .done(function () {
+                    console.log("Статус сообщения изменён на 'прочитанное'");
+                    var messageRow = document.getElementById('message-row-' + messageId);
+                    if (messageRow) {
+                        messageRow.classList.remove('new-message');
+                        messageRow.classList.add('read-message');
+                    }
+                })
+                .fail(function () {
+                    console.log("Ошибка при изменении статуса сообщения");
+                });
+        }
+
+        // AJAX для отправки формы фильтрации и обновления списка сообщений
+        $('#filterForm').submit(function (event) {
+            event.preventDefault();
+            $.ajax({
+                url: $(this).attr('action'),
+                type: 'GET',
+                data: $(this).serialize(),
+                success: function (data) {
+                    // Обновление части страницы с таблицей сообщений
+                    $('#messagesContainer').html($(data).find('#messagesContainer').html());
+                }
+            });
+        });
+    </script>
+}
+

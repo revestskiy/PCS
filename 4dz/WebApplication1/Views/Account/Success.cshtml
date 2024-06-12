@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Регистрация завершена";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (ViewBag.Message != null)
+{
+    <p class="text-success">@ViewBag.Message</p>
+}
+
+<a class="btn btn-primary" href="@Url.Action("Index", "Home")">На главную</a>
