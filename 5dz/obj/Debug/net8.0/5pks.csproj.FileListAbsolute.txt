@@ -1,0 +1,82 @@
+C:\Users\shved\source\repos\5PKS\obj\Debug\net8.0\5pks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shved\source\repos\5PKS\obj\Debug\net8.0\5pks.AssemblyInfoInputs.cache
+C:\Users\shved\source\repos\5PKS\obj\Debug\net8.0\5pks.AssemblyInfo.cs
+C:\Users\shved\source\repos\5PKS\obj\Debug\net8.0\5pks.csproj.CoreCompileInputs.cache
+C:\Users\shved\source\repos\5PKS\obj\Debug\net8.0\5pks.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shved\source\repos\5PKS\obj\Debug\net8.0\5pks.RazorAssemblyInfo.cache
+C:\Users\shved\source\repos\5PKS\obj\Debug\net8.0\5pks.RazorAssemblyInfo.cs
+C:\Users\shved\source\repos\5PKS\obj\Debug\net8.0\5pks.csproj.AssemblyReference.cache
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\appsettings.json
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\5pks.staticwebassets.runtime.json
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\5pks.exe
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\5pks.deps.json
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\5pks.runtimeconfig.json
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\5pks.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\5pks.pdb
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.csproj.AssemblyReference.cache
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.AssemblyInfoInputs.cache
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.AssemblyInfo.cs
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.csproj.CoreCompileInputs.cache
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.RazorAssemblyInfo.cache
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.RazorAssemblyInfo.cs
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\staticwebassets\msbuild.5pks.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\staticwebassets\msbuild.build.5pks.props
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.5pks.props
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.5pks.props
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\scopedcss\bundle\5pks.styles.css
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\scopedcss\projectbundle\5pks.bundle.scp.css
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.csproj.Up2Date
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\refint\5pks.dll
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.pdb
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\5pks.genruntimeconfig.cache
+C:\Users\spl1n\OneDrive\Рабочий стол\5PKS\obj\Debug\net8.0\ref\5pks.dll
